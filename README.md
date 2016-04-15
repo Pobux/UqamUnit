@@ -1,11 +1,11 @@
 UQAM Unit
 =========
 
-Outil pour semi-automatisé la validation des résultats des programmes exécutables par le shell.
+Outil pour semi-automatiser la validation des résultats des programmes exécutables par le shell.
 
-Simplement, le script permet d'envoyer des entrées automatiquement à votre programme et vous permet ensuite de consulter les résultats avec les résultats attendus.
+Le script permet l'entrée automatique de paramètre à votre programme et vous permet ensuite de consulter les résultats avec les résultats attendus.
 
-Le programme ne valide pas si le résultat est bon c'est à vous de le constater.
+Le programme ne valide pas si le résultat est bon c'est à vous de le constater via les informations offertes par le programme.
 
 Fonctionnement
 ==============
