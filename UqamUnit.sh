@@ -17,7 +17,7 @@
 #
 #   [Expected] est seulement une string. Il n'y a pas de validation automatique entre le résultat obtenu et le résultat attendu.
 #
-# 3. Lancer ./UqamUnit [programme] [args**]
+# 3. Lancer ./UqamUnit [programme]
 #
 # TODO: Exemple makefile
 
@@ -67,7 +67,9 @@ for f in $FILES; do
     
     while [ $no_line -ge $test_end ] 
     do
+        IFS=$'\n' #Le délimiteur est seulement la fin de ligne
         output=($(sed -n "$test_start","$test_end"p $f))
+        unset IFS
         
         echo "$no_test : ${output[0]}"; #Output le nom du test
         echo "--------------------------------------"; echo ""
