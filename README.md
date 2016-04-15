@@ -28,4 +28,4 @@ Format des fichiers tests
 ...
 ```
 
-http://pages.clibre.uqam.ca/pobe/Selection_009.png
+![Uqam Unit](http://pages.clibre.uqam.ca/pobe/Selection_009.png)
