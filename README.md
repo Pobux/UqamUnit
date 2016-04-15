@@ -27,3 +27,5 @@ Format des fichiers tests
 9
 ...
 ```
+
+http://pages.clibre.uqam.ca/pobe/Selection_009.png
